@@ -9,7 +9,7 @@
     "build": "webpack --mode=production --env production --progress",
     "lint": "eslint './src/**/*.{ts,tsx}'",
     "lint:fix": "eslint './src/**/*.{ts.tsx}' --fix",
-    "test:e2e": "cypress open"
+    "test:e2e": "cypress run"
   },
   "repository": {
     "type": "git",
