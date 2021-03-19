@@ -5,7 +5,7 @@ import "./scss/style.scss";
 const App: React.FC = ()  => {
   return (
     <div className="bg-primary">
-      <h1>Hello World</h1>
+      <h1>New Text</h1>
     </div>
   )
 }
