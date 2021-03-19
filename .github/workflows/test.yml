@@ -32,8 +32,9 @@ jobs:
           start: npm run start:dev
           wait-on: http://localhost:8080
       - name: Deploy to github pages
-        if: ${{ github.event_name == 'push' }}
-        if: success()
+        if: |
+          ${{ github.event_name == 'push' }}
+          success()
         uses: crazy-max/ghaction-github-pages@v2
         with:
           target_branch: gh-pages
